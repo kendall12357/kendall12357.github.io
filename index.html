@@ -3,107 +3,179 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kendall Lutz | Engineering Portfolio</title>
-  <meta name="description" content="Engineering portfolio for Kendall Lutz, mechanical engineering student focused on process automation, CAD, data analysis, and reliability." />
+  <title>Kendall Lutz | Mechanical Engineering Portfolio</title>
+  <meta name="description" content="Engineering portfolio for Kendall Lutz, Purdue mechanical engineering student focused on process automation, mechanical design, data analysis, manufacturing, and reliability." />
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <header class="hero">
+  <header class="hero" id="home">
     <nav class="nav">
       <a href="#home" class="logo">Kendall Lutz</a>
       <div class="nav-links">
+        <a href="#about">About</a>
         <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
-        <a href="#skills">Skills</a>
+        <a href="#recognition">Recognition</a>
         <a href="#contact">Contact</a>
       </div>
     </nav>
 
-    <section id="home" class="hero-content">
+    <section class="hero-content">
       <p class="eyebrow">Mechanical Engineering • Data Analysis • CAD • Process Automation</p>
-      <h1>Hi, I’m Kendall Lutz.</h1>
+      <h1>Engineering reliable, creative solutions from data to design.</h1>
       <p class="subtitle">
-        I’m a Purdue mechanical engineering student interested in full-time engineering roles
-        starting January 2027. I like building tools, improving processes, and solving technical problems
-        with a mix of mechanical design, Python, VBA, and manufacturing analysis.
+        I’m Kendall Lutz, a Purdue Mechanical Engineering student seeking full-time engineering roles
+        starting January 2027. I bring internship experience in refinery reliability, fired equipment,
+        aerospace manufacturing, CAD design, Python/VBA automation, and student engineering leadership.
       </p>
+
       <div class="button-row">
         <a class="button primary" href="#projects">View Projects</a>
         <a class="button secondary" href="#contact">Contact Me</a>
+      </div>
+
+      <div class="hero-stats" aria-label="Portfolio highlights">
+        <div>
+          <span class="stat-number">3.61</span>
+          <span class="stat-label">Purdue ME GPA</span>
+        </div>
+        <div>
+          <span class="stat-number">$77K+</span>
+          <span class="stat-label">Scholarships & grants secured</span>
+        </div>
+        <div>
+          <span class="stat-number">15+</span>
+          <span class="stat-label">Merit-based scholarships</span>
+        </div>
+        <div>
+          <span class="stat-number">14</span>
+          <span class="stat-label">Student teams led in prosthetics club</span>
+        </div>
       </div>
     </section>
   </header>
 
   <main>
-    <section class="section">
-      <h2>About</h2>
-      <p>
-        I have experience in refinery mechanical integrity, fired equipment, aerospace product engineering,
-        process improvement, CAD design, and engineering data automation. My work has included building
-        predictive analytics tools, developing performance models, automating dimensional analysis, and
-        leading student engineering teams.
-      </p>
+    <section id="about" class="section split">
+      <div>
+        <h2>About Me</h2>
+        <p>
+          I am a hardworking, outgoing, and creative mechanical engineering student who enjoys
+          turning open-ended problems into practical engineering solutions. My interests include
+          fluid mechanics, design and manufacturing, reliability, process improvement, and using
+          data to make better technical decisions.
+        </p>
+        <p>
+          I have worked in both refinery and aerospace manufacturing environments, where I built
+          performance models, automated engineering analysis, supported root-cause investigations,
+          designed tooling, and collaborated with operators, vendors, engineers, and student teams.
+        </p>
+      </div>
+
+      <aside class="profile-card">
+        <h3>What I bring</h3>
+        <ul>
+          <li>Mechanical design and CAD experience</li>
+          <li>Python, VBA, MATLAB, C, and Java</li>
+          <li>Manufacturing and process improvement mindset</li>
+          <li>Leadership in technical student organizations</li>
+          <li>Persistence shown through academics, scholarships, athletics, and work experience</li>
+        </ul>
+      </aside>
     </section>
 
     <section id="projects" class="section">
       <div class="section-heading">
-        <h2>Projects</h2>
-        <p>Selected engineering, automation, and design work.</p>
+        <h2>Featured Projects</h2>
+        <p>Engineering, automation, manufacturing, and design work.</p>
       </div>
 
       <div class="project-grid">
         <article class="card">
-          <h3>Heater Flood Condition Predictive Analytics</h3>
+          <p class="tag">Refinery Analytics</p>
+          <h3>Python/Seeq Heater Flood Prediction</h3>
           <p>
-            Built and validated Python/Seeq applications to identify approaching heater flood conditions,
-            supporting proactive operator intervention and safer refinery operations.
+            Validated and built Python/Seeq predictive analytics applications to identify approaching
+            heater flood conditions and support proactive operator intervention, process safety, and
+            reliability.
           </p>
           <p class="tools"><strong>Tools:</strong> Python, Seeq, Process Data, Predictive Analytics</p>
         </article>
 
         <article class="card">
+          <p class="tag">Energy & Reliability</p>
           <h3>Plate Air Preheater Performance Model</h3>
           <p>
-            Developed an Excel/VBA model to monitor heat duty loss, fouling factor, and excess fuel cost
-            for refinery plate air preheaters, helping prioritize corrective maintenance.
+            Developed an Excel/VBA performance model to monitor heat duty loss, fouling factor, and
+            fuel cost impacts for refinery plate air preheaters, identifying a crude unit APH responsible
+            for approximately $35,000 in annual excess fuel costs.
           </p>
-          <p class="tools"><strong>Tools:</strong> Excel, VBA, Heat Transfer, Reliability Analysis</p>
+          <p class="tools"><strong>Tools:</strong> Excel, VBA, Heat Transfer, Mechanical Integrity</p>
         </article>
 
         <article class="card">
+          <p class="tag">Manufacturing Automation</p>
           <h3>Automated Dimensional Measurement Analysis</h3>
           <p>
-            Automated aerospace casting dimensional analysis using Python and VBA, generating trend reports,
-            Pareto charts, and visualizations that reduced recurring engineering analysis time.
+            Automated aerospace casting dimensional analysis with Python and VBA, creating trend
+            reports, Trailing 30 vs. Trailing 60 comparisons, Pareto charts, and airfoil location
+            visualizations that reduced recurring analysis time.
           </p>
           <p class="tools"><strong>Tools:</strong> Python, VBA, Minitab, Excel, Statistical Analysis</p>
         </article>
 
         <article class="card">
-          <h3>3D-Printed Alignment Fixture</h3>
+          <p class="tag">CAD & Tooling</p>
+          <h3>3D-Printed Airfoil Alignment Fixture</h3>
           <p>
             Designed and implemented a 3D-printed alignment fixture for hand-placed airfoil assemblies,
-            improving setup consistency and reducing operator variation.
+            improving setup consistency, reducing operator variation, and strengthening early
+            in-process dimensional control.
           </p>
           <p class="tools"><strong>Tools:</strong> CAD, 3D Printing, Manufacturing, Dimensional Control</p>
         </article>
 
         <article class="card">
+          <p class="tag">Design Reuse</p>
           <h3>Parametric CAD Fixture Model</h3>
           <p>
-            Created an expression-driven parametric CAD model to allow rapid fixture design changes and
-            reuse across similar product families.
+            Developed an expression-driven parametric CAD model for fixture design, enabling rapid
+            design changes and reuse across similar product families.
           </p>
           <p class="tools"><strong>Tools:</strong> CAD, Parametric Modeling, Design Automation</p>
         </article>
 
         <article class="card">
+          <p class="tag">Human-Centered Design</p>
           <h3>3D-Printed Prosthetic Hand Assembly</h3>
           <p>
-            Designed and integrated a parametric prosthetic hand assembly, combining palm, thumb, fingers,
-            gauntlet, and internal electronics into a functional CAD model.
+            Designed and integrated a parametric prosthetic hand assembly, combining the palm, thumb,
+            fingers, gauntlet, and internal electronics into a functional CAD model while balancing
+            manufacturability, dimensional constraints, and user-specific requirements.
           </p>
           <p class="tools"><strong>Tools:</strong> CAD, 3D Printing, Mechanical Design, Team Collaboration</p>
+        </article>
+
+        <article class="card">
+          <p class="tag">Research</p>
+          <h3>Fluid Power Research</h3>
+          <p>
+            Began research in Purdue’s Maha Fluid Power Lab, building experience in fluid power,
+            experimentation, and mechanical systems beyond traditional coursework.
+          </p>
+          <p class="tools"><strong>Focus:</strong> Fluid Mechanics, Mechanical Systems, Research</p>
+        </article>
+
+        <article class="card">
+          <p class="tag">Creative Engineering</p>
+          <h3>Personal CAD and Maker Projects</h3>
+          <p>
+            Designed and built personal 3D-printed and creative projects to strengthen CAD ability,
+            hands-on prototyping, spatial reasoning, and the habit of turning ideas into physical
+            objects.
+          </p>
+          <p class="tools"><strong>Focus:</strong> CAD Practice, Prototyping, Creativity, Iteration</p>
         </article>
       </div>
     </section>
@@ -111,34 +183,104 @@
     <section id="experience" class="section">
       <div class="section-heading">
         <h2>Experience</h2>
-        <p>Internship and engineering leadership background.</p>
+        <p>Professional engineering and technical leadership experience.</p>
       </div>
 
       <div class="timeline">
         <article class="timeline-item">
-          <h3>ExxonMobil Beaumont Refinery</h3>
-          <p class="role">Mechanical Integrity Intern / Fired Equipment Intern</p>
-          <p>
-            Worked on fired equipment monitoring, APH performance analysis, leak repair documentation,
-            RCFA support, repair scopes, and contractor/vendor coordination for piping system repairs.
-          </p>
+          <div class="timeline-date">2025, 2026–Current</div>
+          <div>
+            <h3>ExxonMobil Beaumont Refinery</h3>
+            <p class="role">Mechanical Integrity Intern / Fired Equipment Intern</p>
+            <p>
+              Supported fired equipment monitoring, APH performance analysis, leak repair documentation,
+              root-cause failure analysis, repair scopes, construction drawing coordination, and piping
+              system repair planning with contractors and vendors.
+            </p>
+          </div>
         </article>
 
         <article class="timeline-item">
-          <h3>Howmet Aerospace LaPorte Castings</h3>
-          <p class="role">Product Engineering Intern</p>
-          <p>
-            Supported dimensional control, supplier qualification, Lean Six Sigma analysis, CAD fixture design,
-            Python/VBA automation, process validation, and cost-benefit analysis for aerospace castings.
-          </p>
+          <div class="timeline-date">2024, 2025</div>
+          <div>
+            <h3>Howmet Aerospace LaPorte Castings</h3>
+            <p class="role">Product Engineering Intern</p>
+            <p>
+              Supported Pratt & Whitney engine casting dimensional control, Lean Six Sigma analysis,
+              supplier qualification, 3D-printed tooling, Python/VBA automation, process validation,
+              and cost-benefit analysis for scrap versus rework decisions.
+            </p>
+          </div>
         </article>
 
         <article class="timeline-item">
-          <h3>Purdue 3-D Printed Prosthetics Club</h3>
-          <p class="role">Co-President, Former Mechanical Team Lead</p>
+          <div class="timeline-date">2023–Present</div>
+          <div>
+            <h3>Purdue 3-D Printed Prosthetics Club</h3>
+            <p class="role">Co-President, Former Mechanical Team Lead</p>
+            <p>
+              Led 14 student teams in the design and production of custom 3D-printed animal prosthetics,
+              coordinating client communication, 3D scanning, project timelines, and deliverable deadlines.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="recognition" class="section">
+      <div class="section-heading">
+        <h2>Recognition & Drive</h2>
+        <p>Academic performance, persistence, and involvement beyond coursework.</p>
+      </div>
+
+      <div class="recognition-grid">
+        <article class="recognition-card highlight">
+          <h3>$77K+ in scholarships and grants secured</h3>
           <p>
-            Led 14 student teams designing and producing custom 3D-printed animal prosthetics, coordinating
-            client communication, scanning, timelines, and deliverables.
+            Independently paid for college while applying broadly for scholarship opportunities,
+            earning or securing more than $77,000 in financial support across Purdue, community,
+            state, and merit-based awards.
+          </p>
+        </article>
+
+        <article class="recognition-card">
+          <h3>15+ merit-based scholarships</h3>
+          <p>
+            Scholarship recognition includes major awards such as the Gilman Scholarship and Lilly
+            Endowment Scholarship, reflecting long-term academic dedication and persistence.
+          </p>
+        </article>
+
+        <article class="recognition-card">
+          <h3>Academic honors</h3>
+          <p>
+            John Martinson Honors College, Dean’s List every semester, and member of Pi Tau Sigma,
+            the Mechanical Engineering Honor Society.
+          </p>
+        </article>
+
+        <article class="recognition-card">
+          <h3>STEM beyond the classroom</h3>
+          <p>
+            Completed Purdue’s Every Boilermaker Engineer Code Certificate for Python and an Arduino
+            Milestone Certificate while continuing to build CAD and prototyping skills through personal
+            design projects.
+          </p>
+        </article>
+
+        <article class="recognition-card">
+          <h3>Persistence outside engineering</h3>
+          <p>
+            Completed a first marathon, biked 100 miles, and biked from Purdue to Illinois — experiences
+            that reflect the same determination I bring to engineering work.
+          </p>
+        </article>
+
+        <article class="recognition-card">
+          <h3>Campus leadership</h3>
+          <p>
+            Boiler Gold Rush Orientation Leader, Heart and Soul Choir member, former Parkour &
+            Calisthenics Club media marketer, and former Pi Tau Sigma Alumni Chair.
           </p>
         </article>
       </div>
@@ -147,7 +289,7 @@
     <section id="skills" class="section">
       <div class="section-heading">
         <h2>Skills</h2>
-        <p>Tools and technical areas I use.</p>
+        <p>Technical tools and areas I use.</p>
       </div>
 
       <div class="skills">
@@ -165,21 +307,23 @@
         <span>Lean Six Sigma</span>
         <span>CAD</span>
         <span>3D Printing</span>
+        <span>Fluid Mechanics</span>
+        <span>Design & Manufacturing</span>
       </div>
     </section>
 
     <section id="contact" class="section contact">
       <h2>Contact</h2>
       <p>
-        I’m seeking full-time engineering opportunities starting January 2027.
+        I am seeking full-time mechanical engineering opportunities starting January 2027.
       </p>
       <p>
         <strong>Email:</strong> <a href="mailto:Lutz42@purdue.edu">Lutz42@purdue.edu</a><br />
         <strong>GitHub:</strong> <a href="https://github.com/Kendall12357">github.com/Kendall12357</a><br />
-        <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/Kendall-Lutz">linkedin.com/in/Kendall-Lutz</a>
+        <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/YOUR-LINKEDIN">linkedin.com/in/YOUR-LINKEDIN</a>
       </p>
       <p class="note">
-        Replace the GitHub and LinkedIn placeholders before publishing.
+        Before publishing, replace <strong>YOUR-LINKEDIN</strong> with your actual LinkedIn URL.
       </p>
     </section>
   </main>
