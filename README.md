@@ -1,28 +1,29 @@
 # Kendall Lutz Portfolio Website
 
-This is the updated portfolio website with:
-- Headshot added to the hero section
-- Updated collaborative intro
-- Project cards with image support
-- Swashplate piston pump simulation project added
-- Recognition section updated
-- Scholarship and grant list added in an expandable section
-- YMCA and NHS scholarships added
-- Hypersonic Horizons national competition recognition added
+Latest update includes:
+- Circular headshot in the hero section
+- Headshot positioned to the right of the intro text on desktop
+- Pump project image removed
+- Pump project PDF added as a clickable project attachment
+- Hypersonic Horizons competition video link added
+- Python EBEC certificate added under STEM beyond the classroom
+- Marathon/biking placeholder added
+- Boiler Gold Rush placeholder added
+- About Me section left unchanged
 
-## How to publish on GitHub
+## Files that must stay in place
 
-1. Open your GitHub repository.
-2. Upload everything in this ZIP into the main/root of the repo.
-3. Make sure these are visible at the top level:
-   - `index.html`
-   - `style.css`
-   - `README.md`
-   - `assets/`
-4. Commit changes.
-5. Go to Settings → Pages.
-6. Use Deploy from branch → main → root.
-7. Wait a few minutes and refresh the website.
+Your site depends on these paths:
+
+- `index.html`
+- `style.css`
+- `assets/kendall-headshot.png`
+- `assets/project-files/ME535_Project1_KendallLutz.pdf`
+- `assets/certificates/ebec-python-certificate.jpg`
+
+## Hypersonic Horizons link used
+
+https://youtu.be/RQL6mPOiiRs?si=ETaUmhG9UZPQ7JXm
 
 ## Before publishing
 
@@ -32,7 +33,7 @@ In `index.html`, replace:
 
 with your real LinkedIn profile URL.
 
-## Important
+## How to update GitHub
 
-Do not upload private scholarship receipts or private resume files unless you are comfortable with them being public.
-This site only summarizes the scholarship/grant information.
+Upload everything inside this ZIP to the root of your GitHub repo.
+Do not upload the ZIP itself.
