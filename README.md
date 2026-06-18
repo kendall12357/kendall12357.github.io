@@ -1,40 +1,38 @@
-# Kendall Lutz Portfolio Website — Updated
+# Kendall Lutz Portfolio Website
 
-This updated version adds:
-- Recognition & Drive section
-- $77K+ scholarships/grants highlight
-- 15+ merit-based scholarship highlight
-- Honors College, Dean's List, Pi Tau Sigma
-- Every Boilermaker Engineer Code Certificate and Arduino Milestone Certificate
-- Research and creative engineering project cards
-- Stronger job-search positioning
+This is the updated portfolio website with:
+- Headshot added to the hero section
+- Updated collaborative intro
+- Project cards with image support
+- Swashplate piston pump simulation project added
+- Recognition section updated
+- Scholarship and grant list added in an expandable section
+- YMCA and NHS scholarships added
+- Hypersonic Horizons national competition recognition added
 
-## How to update your GitHub website
+## How to publish on GitHub
 
 1. Open your GitHub repository.
-2. Delete or replace the old:
+2. Upload everything in this ZIP into the main/root of the repo.
+3. Make sure these are visible at the top level:
    - `index.html`
    - `style.css`
-3. Upload the new:
-   - `index.html`
-   - `style.css`
+   - `README.md`
+   - `assets/`
 4. Commit changes.
-5. Wait a few minutes.
-6. Refresh your website.
+5. Go to Settings → Pages.
+6. Use Deploy from branch → main → root.
+7. Wait a few minutes and refresh the website.
 
 ## Before publishing
 
-Open `index.html` and replace:
+In `index.html`, replace:
 
 `YOUR-LINKEDIN`
 
 with your real LinkedIn profile URL.
 
-Your GitHub username is already set as:
+## Important
 
-`Kendall12357`
-
-## Important note
-
-Do not upload private financial aid receipts to your public website. This site only uses the professional summary:
-"$77K+ in scholarships and grants secured."
+Do not upload private scholarship receipts or private resume files unless you are comfortable with them being public.
+This site only summarizes the scholarship/grant information.
