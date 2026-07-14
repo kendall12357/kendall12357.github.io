@@ -226,6 +226,14 @@ h1 {
   background: #fbfdff;
 }
 
+.recognition-photo {
+    margin-top: 16px;
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    border: 1px solid #e5e7eb;
+}
+
 .card h3,
 .recognition-card h3 {
   margin-top: 0;
