@@ -37,3 +37,18 @@ with your real LinkedIn profile URL.
 
 Upload everything inside this ZIP to the root of your GitHub repo.
 Do not upload the ZIP itself.
+
+
+## July 2026 Featured Projects Update
+
+Updated the Featured Projects section by:
+- Removing the duplicate Parametric CAD Fixture Model tile.
+- Expanding the 3D-Printed Airfoil Alignment Fixture project with the investment casting, ScanBox blue light scanning, NX reverse engineering, and adjustable CAD model story.
+- Adding prosthetic hand project photos and demo video links.
+
+New media paths:
+- assets/project-images/prosthetic-hand-1.jpg
+- assets/project-images/prosthetic-hand-2.jpg
+- assets/project-images/prosthetic-hand-3.jpg
+- assets/project-videos/prosthetic-hand-demo-1.mov
+- assets/project-videos/prosthetic-hand-demo-2.mov
