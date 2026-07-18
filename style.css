@@ -228,8 +228,9 @@ h1 {
 
 .recognition-photo {
     margin-top: 16px;
-    width: 20%;
-    height: auto;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
     border-radius: 16px;
     border: 1px solid #e5e7eb;
 }
