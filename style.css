@@ -224,6 +224,8 @@ h1 {
   border: 1px solid #e5e7eb;
   border-radius: 18px;
   background: #fbfdff;
+  display: flex;
+  flex-direction: column;
 }
 
 .recognition-photo {
